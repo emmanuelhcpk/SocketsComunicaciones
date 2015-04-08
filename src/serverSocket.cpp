@@ -11,7 +11,7 @@
 void connection(int sock)
 {
   // Pretty much your C++ code verbatim.
-  std::string sendMsg = "This is a test \r\n";
+  std::string sendMsg = "Lixander es marica \r\n";
   int amt = send(sock, sendMsg.c_str(), sendMsg.size(), 0);
   printf("Send %d bytes.\n", amt);
   close(sock);
